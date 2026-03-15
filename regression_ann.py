@@ -35,3 +35,4 @@ model.save('regression.h5')
 y_pre=model.predict(x_test_scale)
 from sklearn.metrics import r2_score
 print(r2_score(y_test,y_pre))
+print("hello")
