@@ -1,2 +1,1 @@
-
-from sklearn.preprocessing 
+data = pd.get_dummies(data, columns=['country','gender'],drop_first=True)
